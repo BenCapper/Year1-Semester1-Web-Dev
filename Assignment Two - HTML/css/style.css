@@ -1,0 +1,254 @@
+body {
+	background-image:url(../images/space2.PNG);
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+}
+
+.content{
+
+	max-width: 800px;
+	margin: auto;
+	background-color: rgba(223,232,95,.96) !important;
+	padding-bottom: 0em;
+}
+
+header, header img{
+	max-width: 800px;
+	margin:auto;
+}
+nav {
+	position: relative;
+	top:-.2em;
+	max-width: 800px;
+	margin:auto;
+}
+
+nav a {
+	float: left;
+	display: inline-block;
+	border-bottom: 1px solid rgba(0, 0, 0,1);
+	border-top: 1px solid rgba(0, 0, 0,1);
+	border-right: 1px solid rgba(0, 0, 0,1);
+	border-left: 1px solid rgba(0, 0, 0,1);
+	width:25%;
+	padding-top:.1em;
+	padding-bottom:.1em;
+	color: white;
+	background: rgba(39, 187, 245,.6);
+	font-family: 'Fredoka One', cursive;
+	text-align: center;
+}
+
+nav a:link {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: yellow;
+	text-decoration: none;
+	background: rgba(39, 187, 245,1);
+}
+nav a:active {
+	color: white;
+	text-decoration: none;
+	background: rgba(39, 187, 245,1);
+}
+
+h1 {
+	color: rgba(39, 187, 245,1);
+	font-family: 'Fredoka One', cursive;
+	font-size:2em;
+}
+#home {
+	padding-left:.65em;
+}
+#signup {
+	position: relative;
+	right: 3.5em;
+}
+.cent {
+	text-align:center;
+}
+label {
+	font-family: 'Fredoka One', cursive;
+}
+figcaption {
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+}
+p {
+	padding-left:20px;
+	font-family: 'Fredoka One', cursive;
+	font-size: 1em;
+	color:black;
+}
+#highlight {
+	position: relative;
+	left: 15em;
+}
+
+
+#p1 {
+	margin:auto;
+	width: 90%;
+}
+.form {
+	width: 100%!important;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+hr {
+	border: 1px solid dodgerblue;
+	width:90%;
+}
+table {
+	margin-left:auto;
+	margin-right:auto;
+	background-color: rgba(39, 187, 245,.8);
+}
+table, th{
+	border:2px solid white;
+	color:white;
+}
+th {
+	color:yellow!important;
+}
+td {
+	text-align: center;
+}
+
+tbody tr:hover {
+  cursor: pointer;
+  background-color: yellow;
+  color: green;
+}
+footer {
+	position:relative;
+	left: 20em;
+}
+
+h2{
+
+	font-family: 'Fredoka One', cursive;
+	color: rgba(39, 187, 245,1);
+	font-size: 1.1em;
+	padding-left: 1.5em;
+}
+#form {
+	position: relative;
+	left: 150px;
+}
+
+#cards {
+	width: 10%
+}
+
+#right {
+	text-align:right;
+}
+span {
+	color:white !important;
+}
+
+.ui.inverted.blue.buttons .button,
+.ui.inverted.blue.button {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 0px 2px rgba(39, 187, 245,1) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(39, 187, 245,1) inset !important;
+  color: rgba(39, 187, 245,1);
+}
+
+.ui.inverted.blue.buttons .button:hover,
+.ui.inverted.blue.button:hover,
+.ui.inverted.blue.buttons .button:focus,
+.ui.inverted.blue.button:focus,
+.ui.inverted.blue.buttons .button.active,
+.ui.inverted.blue.button.active,
+.ui.inverted.blue.buttons .button:active,
+.ui.inverted.blue.button:active {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  color: #FFFFFF;
+}
+
+.ui.inverted.blue.buttons .button:hover,
+.ui.inverted.blue.button:hover {
+  background-color: rgba(39, 187, 245,1);;
+}
+
+.ui.inverted.blue.buttons .button:focus,
+.ui.inverted.blue.button:focus {
+  background-color: #2bbbff;
+}
+
+.ui.inverted.blue.buttons .active.button,
+.ui.inverted.blue.active.button {
+  background-color: #3ac0ff;
+}
+
+.ui.inverted.blue.buttons .button:active,
+.ui.inverted.blue.button:active {
+  background-color: rgba(39, 187, 245,1);;
+}
+
+/* Inverted Basic */
+
+.ui.inverted.blue.basic.buttons .button,
+.ui.inverted.blue.buttons .basic.button,
+.ui.inverted.blue.basic.button {
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
+  color: #FFFFFF !important;
+}
+
+.ui.inverted.blue.basic.buttons .button:hover,
+.ui.inverted.blue.buttons .basic.button:hover,
+.ui.inverted.blue.basic.button:hover {
+  color: rgba(39, 187, 245,1)!important;
+}
+
+.ui.inverted.blue.basic.buttons .button:focus,
+.ui.inverted.blue.basic.buttons .button:focus,
+.ui.inverted.blue.basic.button:focus {
+  color: rgba(39, 187, 245,1) !important;
+}
+
+.ui.inverted.blue.basic.buttons .active.button,
+.ui.inverted.blue.buttons .basic.active.button,
+.ui.inverted.blue.basic.active.button {
+  color: rgba(39, 187, 245,1) !important;
+}
+
+.ui.inverted.blue.basic.buttons .button:active,
+.ui.inverted.blue.buttons .basic.button:active,
+.ui.inverted.blue.basic.button:active {
+  color: rgba(39, 187, 245,1) !important;
+}
+
+.cards {
+	color: rgba(54,177,214, .9) !important;
+	font-weight: bold;
+	text-align:center;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.ui.inverted.dimmer {
+  background-color: rgba(255, 255, 255, 1);
+}
+.blurring.dimmable > .inverted.dimmer {
+  background-color: rgba(223,232,95,1) !important;
+}
+
+.ui.inverted.dimmer > .content > * {
+  color: dodgerblue;
+  font-size:18px;
+}

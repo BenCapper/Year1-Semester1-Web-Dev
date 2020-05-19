@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="content">
+<header>
+
+<img src="images/rick_and_morty_banner2.png" alt="R&M">
+</header>
+
+<nav>
+	<a href="home.html">Home</a>
+	<a href="episodes.html">Episodes</a> 
+	<a href="characters.html">Characters</a>
+	<a href="creators.html">Creators</a>
+</nav>
+
+<main>
+<section>
+<br><br>
+<h1 id="home">Home</h1>
+<p id="p1">
+Rick and Morty is an American adult animated science fiction sitcom created by Justin Roiland and Dan Harmon for Cartoon Network's late-night programming block Adult Swim.
+The series follows the misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson Morty Smith, who split their time between domestic life and interdimensional adventures.
+</p><br>
+<h2>Take a look at some of the highlights from the adventures<br>of Rick and Morty!</h2>
+</section>
+<iframe id="highlight" width="350" height="200" src="https://www.youtube.com/embed/g9r2aje7Xw8"></iframe><br><br>
+ <hr><br>
+<h2>Please feel free to make an account for all your Rick and Morty news and updates!</h2>
+<section id="form">
+
+<h1 id="signup">Sign Up</h1>
+<div class="ui form">
+<form method="get" action = "process.html">
+  <div class="fields">
+    <div class="required five wide field">
+      <label for="first">First name</label>
+      <input type="text" id="first" placeholder="First Name, 1 Upper" required pattern="[A-Z][a-z]+( [A-Z][a-z]+)*" >
+    </div>
+    <div class="required five wide field">
+      <label for="last">Last name</label>
+      <input type="text" id="last" placeholder="Last Name, 1 Upper" required pattern="[A-Z][a-z]+( [A-Z][a-z]+)*" >
+    </div>
+	</div>
+
+	<div class="fields">
+		<div class="required five wide field">
+      <label for="user">Desired Username</label>
+      <input type="text" id="user" placeholder="Username">
+	  </div>
+	    <div class="required five wide field">
+      <label for="pass">Desired Password</label>
+       <input type="password" id="pass" placeholder="4-9 chars long, 1 Upper, 1 Num" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{6,}$">
+    </div>
+    </div>
+  <br>
+  <button class="ui large primary inverted blue button">Sign Me Up</button>
+  </form>
+  </div>
+  <br><br><br>
+ </section> 
+<hr>
+</main>
+<footer>
+
+<br>
+		<button onclick="location.href='https://www.youtube.com/playlist?list=PLQl8zBB7bPvL6GycjAtAibVp6FsLWvMcY'" class="ui tiny youtube button">
+			<span><i class="youtube icon"></i>YouTube</span></button>
+	<button onclick="location.href='https://twitter.com/RickandMorty?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'" class="ui tiny twitter button">
+		<span><i class="twitter icon"></i> Twitter</span></button>
+<br>
+<br>
+</footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script>
+  $(function() {
+$('.ui.embed').embed({
+  source      : 'youtube',
+  id          : 'g9r2aje7Xw8',
+  placeholder : 'images/eye.jpg'
+});
+  $('.rating')
+  .rating({
+	clearable: true,
+    initialRating: 0,
+    maxRating: 5
+  })})
+  $('.special.cards .image').dimmer({
+  on: 'hover'
+
+
+});
+
+</script>
+</body>
+</html>

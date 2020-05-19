@@ -1,0 +1,249 @@
+body {
+	background-color: #ffffff;
+	color: #edc13e;
+}
+
+.head table {
+	border-collapse: collapse;
+}
+
+.head {
+	max-width: 800px;
+	margin: auto;
+	background-color: white;
+}
+
+
+td h1{
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: Dodgerblue;
+	font-family: "Trebuchet MS";
+	font-size: 65px;
+	-webkit-text-stroke: 1.2px orange;
+}
+
+.head img {
+	margin-left: 600px;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+
+.studentno {
+	color: Dodgerblue;
+	font-family: "Trebuchet MS";
+	font-size: 30px;
+	padding-bottom: 10px;
+	-webkit-text-stroke: .3px orange ;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul li {
+	float: left;
+}
+
+.head ul a {
+	display: block;
+	border: 1px solid orange;
+	padding: 4px 60px;
+	color: #ebbc65;
+	background-color: Dodgerblue;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	text-align: center;
+	width: 78px;
+}
+
+.head ul a:link {
+	color: #ebbc65;
+	text-decoration: none;
+}
+
+.head ul a:visited {
+	color: #ebbc65;
+	text-decoration: none;
+}
+
+.head ul a:hover{
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #ebbc65;
+}
+.head ul a:active {
+	color: #ebbc65;
+	text-decoration: none;
+}
+
+
+th {
+	color: #ebbc65;
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+
+}
+
+.content {
+	max-width: 800px;
+	margin: auto;
+	padding-top: 70px;
+	background-color: white;
+}
+
+h3 li {
+	color: Dodgerblue;
+	font-weight: bold;
+	font-style: italic;
+	font-family: Agency FB;
+	font-size: 25px;
+}
+
+blockquote {
+	font-size: 0.90em;
+}
+
+.content ol, p {
+	font-family:Agency FB;
+	font-size: 20px;
+	font-weight: bold;
+	padding-right: 90px;
+}
+.content #table2 {
+	width: 800px;
+	border: 2px groove Dodgerblue;
+}
+
+#table2 td {
+	border: 1px groove Dodgerblue;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Agency FB;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+#table2 td:nth-of-type(odd){
+	background-color: #d8e8f7;
+}
+
+#table2 td:nth-of-type(even){
+	background-color: #ffefcb;
+}
+
+.links td:hover {
+	background-color: #f5eff5;
+}
+
+caption {
+	font-weight: bold;
+	font-style: italic;
+	text-align: left;
+	font-size: 14px;
+	font-family: Agency FB;
+}
+
+.content img {
+	margin-left: 300px;
+}
+
+.content .links {
+	width: 800px;
+}
+
+.links a {
+	color: Dodgerblue;
+	font-size: 22px;
+	font-family: Agency FB;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.links a:link {
+	color: Dodgerblue;
+	text-decoration: none;
+}
+
+.links a:visited {
+	color: Dodgerblue;
+	text-decoration: none;
+}
+
+.links a:hover {
+	color: #ebbc65;
+	text-decoration: none;
+
+}
+.links a:active {
+	color: #ebbc65;
+	text-decoration: none;
+}
+
+
+.links td {
+	border-top: .5px solid Dodgerblue;
+	border-bottom: .5px solid Dodgerblue;
+	font-family: Agency FB;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+
+.footer {
+	max-width: 800px;
+	margin: auto;
+	padding-top: 60px;
+	text-align: center;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+
+.footer a {
+	color: Dodgerblue;
+	font-family: Agency FB;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.footer a:link {
+	color: Dodgerblue;
+	text-decoration: none;
+}
+
+.footer a:visited {
+	color: Dodgerblue;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: #ebbc65;
+	text-decoration: none;
+
+}
+.footer a:active {
+	color: #ebbc65;
+	text-decoration: none;
+}
+
+hr {
+	color: Dodgerblue;
+	background-color: Dodgerblue;
+	height: 1px;
+	border-width: 0px;
+}
+	
+
+	
+	
